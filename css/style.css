@@ -64,15 +64,28 @@
     padding: 100px 0;
 }
 
-.aboutImage {
+/* .aboutImage {
     max-width: 100%;
-}
+} */
 
+/* .container .aboutContainer {
+    text-align: center; 
+    padding: 0;
+    margin-top: 0%;
+} */
 
+/*
+.aboutContainer .divider {
+    width: 100px; 
+    height: 1px; 
+    background: #d82c2e; 
+    margin: 0 auto; 
+} */
 
 .skillsSection,
-.contactSection {
-    background-color: #e74c3c;
+.contactSection,
+.resumeSection {
+    background-color: #3867d6;
     color: #ffffff;
 }
 
@@ -140,7 +153,7 @@
     font-size: 56px;
     margin-bottom: 10px;
     font-weight: 400;
-    color: #e74c3c;
+    color: #3867d6;
 }
 
 .squareContent h3 {
@@ -163,7 +176,8 @@
     height: 50px !important;
 }
 
-.contactButton {
+.contactButton,
+.resumeButton {
     color: #ffffff;
     padding: 15px 20px;
     display: inline-block;
@@ -174,7 +188,7 @@
 
 .contactButton:hover {
     text-decoration: none;
-    color: #e74c3c;
+    color: #3867d6;
     background-color: #ffffff;
 }
 
@@ -191,8 +205,8 @@
 }
 
 .filter .current {
-    background-color: #e74c3c;
-    border-color: #e74c3c;
+    background-color: #3867d6;
+    border-color: #3867d6;
     color: #ffffff;
 }
 .filter {
@@ -245,7 +259,7 @@
 .items a {
     width: 35px;
     height: 35px;
-    background-color: #e74c3c;
+    background-color: #3867d6;
     position: relative;
     display: inline-block;
     padding: 5px 5px;
@@ -310,7 +324,7 @@
 }
 
 .copyrightSection {
-    background-color: black;
+    background-color: #333333;
     color: #ffffff;
     padding: 20px 5px;
 }
@@ -320,7 +334,7 @@
 }
 
 #navigation {
-    background-color: #e74c3c;
+    background-color: #3867d6;
     padding: 15px 10px;
     z-index: 100;
     width: 100%;
@@ -363,4 +377,127 @@
     width: 100%;
     height: 100%;
     background: url(../img/loader.gif) center center no-repeat;
+}
+
+.myImage {
+    width: 166px;
+    height: 166px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.resumeSection {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.copyrightSection ul { 
+    width: 100%; 
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+.copyrightSection li { 
+    display: inline-block; 
+    margin: 0 4px; 
+}
+
+.copyrightSection li a { 
+    display: block; 
+    text-decoration: none; 
+    border-bottom: none; 
+    padding: 18px; 
+    
+    -webkit-border-radius: 3px; 
+    -moz-border-radius: 3px; 
+    -ms-border-radius: 3px; 
+    -o-border-radius: 3px; 
+    border-radius: 3px; 
+
+    -webkit-transition: all 0.3s ease-in, 1s; 
+    -moz-transition: all 0.3s ease-in, 1s; 
+    -o-transition: all 0.3s ease-in, 1s; 
+    -ms-transition: all 0.3s ease-in, 1s; 
+    transition: all 0.3s ease-in, 1s;
+ }
+
+.copyrightSection .facebook {
+    background: url(../img/icons/fb.png) center no-repeat #444749; 
+}
+.copyrightSection .facebook:hover { 
+    background-color: #4265b9; 
+}
+
+.copyrightSection .twitter { 
+    background: url(../img/icons/twitter.png) center no-repeat #444749; 
+}
+.copyrightSection .twitter:hover { 
+    background-color: #9ae4e8; 
+}
+
+.copyrightSection .google { 
+    background: url() center no-repeat #444749; 
+}
+.copyrightSection .google:hover { 
+    background-color: #d62408; 
+}
+
+.copyrightSection .youtube { 
+    background: url() center no-repeat #444749; 
+}
+.copyrightSection .youtube:hover { 
+    background-color: #df3333; 
+}
+
+.copyrightSection .flickr { 
+    background: url() center no-repeat #444749;
+}
+.copyrightSection .flickr:hover { 
+    background-color: #E2408F; 
+}
+
+.copyrightSection .dribbble { 
+    background: url() center no-repeat #444749; 
+}
+.copyrightSection .dribbble:hover { 
+    background-color: #e94c89; 
+}
+
+.copyrightSection .behance { 
+    background: url() center no-repeat #444749; 
+}
+.copyrightSection .behance:hover { 
+    background-color: #3fbff0; 
+}
+
+.copyrightSection .instagram { 
+    background: url(../img/icons/ig.png) center no-repeat #444749; 
+}
+.copyrightSection .instagram:hover { 
+    background-color: #956751; 
+}
+
+.copyrightSection .vimeo { 
+    background: url() center no-repeat #444749; 
+}
+.copyrightSection .vimeo:hover { 
+    background-color: #87d2e0; 
+}
+
+.copyrightSection .tumblr { 
+    background: url() center no-repeat #444749; 
+}
+.copyrightSection .tumblr:hover { 
+    background-color: #4d7Da1;
+}
+
+.copyrightSection .linkedin { 
+    background: url(../img/icons/linkedin.png) center no-repeat #444749; 
+}
+.copyrightSection .linkedin:hover { 
+    background-color: #0073b2; 
+}
+
+.skillsSection p {
+    margin-bottom: 30px;
 }
