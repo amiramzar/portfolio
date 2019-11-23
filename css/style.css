@@ -346,6 +346,7 @@
 
 #navigation li a {
     color: #ffffff;
+    text-align: center;
 }
 
 .navbar-brand,
@@ -496,6 +497,13 @@
 }
 .copyrightSection .linkedin:hover { 
     background-color: #0073b2; 
+}
+
+.copyrightSection .github { 
+    background: url(../img/icons/github.png) center no-repeat #444749; 
+}
+.copyrightSection .github:hover { 
+    background-color: #7A308F; 
 }
 
 .skillsSection p {
